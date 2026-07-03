@@ -1,3 +1,3 @@
-FROM php:8.2.31-cli-alpine
+FROM php:8.2.32-cli-alpine
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --quiet
